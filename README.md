@@ -38,6 +38,19 @@ This project contains the interactive Love proposal animation with a full PHP ba
      - Create a directory symlink or copy this folder to `C:\xampp\htdocs\love`, OR
      - Use Method 2 below.
 
+### Method 3: Share Over the Internet (Mobile Data / Anywhere)
+
+To send the link to someone over mobile data anywhere in the world:
+1. Double-click **`start_online_link.bat`** (or run `ssh -o StrictHostKeyChecking=no -R 80:localhost:80 nokey@localhost.run` in your terminal).
+2. It will generate a live public HTTPS address (for example: `https://xxxx.lhr.life`).
+3. Add `/love/` to the end of that address:
+   ```
+   https://xxxx.lhr.life/love/
+   ```
+4. Send that link to anyone on WhatsApp, Facebook, or SMS!
+
+---
+
 ### Method 2: Using PHP Built-in Server
 
 You can run the site directly using PHP from your terminal:
