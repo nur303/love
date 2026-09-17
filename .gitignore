@@ -1,0 +1,3 @@
+# Local runtime SQLite database
+database.sqlite
+*.log
